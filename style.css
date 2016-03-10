@@ -71,6 +71,9 @@
   font-size: 14px;
   background-color: #f2f1e6;
   color: #444034;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  -webkit-box-shadow: 0 0 10px #87847a;
+  box-shadow: 0 0 10px #87847a;
+  border: none; }
 
 /*# sourceMappingURL=style.css.map */

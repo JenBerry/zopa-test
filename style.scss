@@ -101,4 +101,7 @@ $fontfamily: 'Open Sans', sans-serif;
 	background-color: $boxbackground;
 	color: $black;
 	font-family: $fontfamily;
+	-webkit-box-shadow: 0 0 10px $muted;
+	box-shadow: 0 0 10px $muted;
+	border: none;
 }
