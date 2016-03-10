@@ -63,11 +63,11 @@ $fontfamily: 'Open Sans', sans-serif;
 		.loan-length{
 			font-size: 23px;
 		}
-		.help-icon i{
+		.help-icon{
 			font-size: 19px;
 			position: relative;
 			top:-5px;
-
+			cursor: pointer;
 		}
 		.desc{
 			color: $muted;
@@ -91,4 +91,14 @@ $fontfamily: 'Open Sans', sans-serif;
 		margin-top: 14px;
 		font-size: 20px;
 	}
+}
+
+.ui-tooltip{
+	max-width: 360px;
+	width:100%;
+	padding:18px;
+	font-size: 14px;
+	background-color: $boxbackground;
+	color: $black;
+	font-family: $fontfamily;
 }

@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Zopa test result</title>
+	<link rel="stylesheet" type="text/css" href="jquery-ui-1.11.4.custom/jquery-ui.min.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,11 +18,19 @@
 					<div class="ann-return blue">annualised return</div>
 					<div class="loan-length">
 						on loans up to
-						<input type="radio" name="years" value="5" id="5years" data-percentage="3.6" checked>
-						<label for="5years">5 years</label>
-						<input type="radio" name="years" value="3" id="3years" data-percentage="3.0">
-						<label for="3years">3 Years</label>
-						<a class="help-icon blue" href="#" title=""><i class="material-icons">help_outline</i></a>
+						<label for="5years">
+							<input type="radio" name="years" value="5" id="5years" data-percentage="3.6" checked>
+							5 years
+						</label>
+						<label for="3years">
+							<input type="radio" name="years" value="3" id="3years" data-percentage="3.0">
+							3 years
+						</label>
+	
+						<i 
+							class="help-icon blue material-icons"
+							title="Lend to borrowers whose loans last up to 3 years, or 5 years. You'll receive monthly repayments and interest from borrowers which are also re-lent to new borrowers for up to 3 or 5 years unless you decide to withhold them. You can change your lending preferences or use our early access facility to withdraw money before loans are repaid whenever you like."
+						>help_outline</i>
 					</div>
 				</div>
 			</div>
@@ -41,6 +50,7 @@
 		<footer>Zopa gives you great returns on your money by lending it directly to sensible borrowers who pay you interest.</footer>
 	</article>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
 	<script src="script.js" type="text/javascript"></script>
 </body>
 </html>

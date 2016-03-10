@@ -42,10 +42,11 @@
       font-size: 38px; }
     .lender-widget .lender-form .loan-length {
       font-size: 23px; }
-    .lender-widget .lender-form .help-icon i {
+    .lender-widget .lender-form .help-icon {
       font-size: 19px;
       position: relative;
-      top: -5px; }
+      top: -5px;
+      cursor: pointer; }
     .lender-widget .lender-form .desc {
       color: #87847a;
       font-size: 14px;
@@ -62,5 +63,14 @@
   .lender-widget footer {
     margin-top: 14px;
     font-size: 20px; }
+
+.ui-tooltip {
+  max-width: 360px;
+  width: 100%;
+  padding: 18px;
+  font-size: 14px;
+  background-color: #f2f1e6;
+  color: #444034;
+  font-family: "Open Sans", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
