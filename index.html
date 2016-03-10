@@ -5,35 +5,39 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Zopa test result</title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-	<article>
+	<article class="lender-widget">
 		<header><h1>Work your money harder</h1></header>
-		<form>
-			<div>
-				<div>3.6%</div>
-				<div>
-					<div>annualised return</div>
-					<div>
+		<form class="lender-form">
+			<div class="bold row">
+				<div class="percentage blue column">3.6%</div>
+				<div class="column">
+					<div class="ann-return blue">annualised return</div>
+					<div class="loan-length">
 						on loans up to
 						<input type="radio" name="years" value="5" id="5years" checked>
 						<label for="5years">5 years</label>
 						<input type="radio" name="years" value="3" id="3years">
 						<label for="3years">3 Years</label>
-						<a href="#" title="">(?)</a>
+						<a class="help-icon blue" href="#" title=""><i class="material-icons">help_outline</i></a>
 					</div>
 				</div>
 			</div>
-			<div>
-				<p>
+			<div class="row clear">
+				<p class="desc column">
 					Shown before tax, after 1% fee and expected defaults.
 					With peer-to-peer lending your capital is at risk, our 
 					<a href="#" title="risk statement">risk statement</a>
 					has the details.
 				</p>
-				<button type="submit">Get Started</button>
+				<div class="submit column">
+					<button type="submit">Get Started</button>
+				</div>
 			</div>
+			<div class="clear"></div>
 		</form>
 		<footer>Zopa gives you great returns on your money by lending it directly to sensible borrowers who pay you interest.</footer>
 	</article>

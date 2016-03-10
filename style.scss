@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+//colours
+$blue: #2aa1df;
+$black: #444034;
+$link: #035b8a;
+$muted: #87847a;
+$boxbackground: #f2f1e6;
+
+//fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
+$fontfamily: 'Open Sans', sans-serif;
+
+.lender-widget{
+	max-width: 708px;
+	font-family: $fontfamily;
+	color:$black;
+	padding: 16px 18px 13px;
+	outline: 1px solid grey;
+
+	h1{
+		font-size: 42px;
+		margin-bottom: 10px;
+		font-weight: 700;
+		line-height: 1;
+	}
+	a{
+		color: $link;
+		text-decoration: none;
+		font-weight: 600;
+	}
+	.blue{
+		color:$blue;
+	}
+	.bold{
+		font-weight: 600;
+	}
+
+	.lender-form{
+		background-color: $boxbackground;
+		padding: 20px;
+		input, label, button{
+			cursor: pointer;
+		}
+	
+		.column{float:left;}
+		.clear{clear:both;}
+
+		.percentage{
+			font-size: 95px;
+			line-height: 1;
+			letter-spacing: -7px;
+			margin-right: 18px;
+		}
+		.ann-return{
+			font-size: 38px;
+		}
+		.loan-length{
+			font-size: 23px;
+		}
+		.help-icon i{
+			font-size: 19px;
+			position: relative;
+			top:-5px;
+
+		}
+		.desc{
+			color: $muted;
+			font-size: 14px;
+			width:62%;
+		}
+		.submit{
+			width:38%;
+			text-align: center;
+		}
+		button{
+			width: 162px;
+			height: 42px;
+			background-color: $blue;
+			color: white;
+			font-size: 22px;
+		}
+
+	}
+	footer{
+		margin-top: 14px;
+		font-size: 20px;
+	}
+}

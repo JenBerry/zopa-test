@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+.lender-widget {
+  max-width: 708px;
+  font-family: "Open Sans", sans-serif;
+  color: #444034;
+  padding: 16px 18px 13px;
+  outline: 1px solid grey; }
+  .lender-widget h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1; }
+  .lender-widget a {
+    color: #035b8a;
+    text-decoration: none;
+    font-weight: 600; }
+  .lender-widget .blue {
+    color: #2aa1df; }
+  .lender-widget .bold {
+    font-weight: 600; }
+  .lender-widget .lender-form {
+    background-color: #f2f1e6;
+    padding: 20px; }
+    .lender-widget .lender-form input, .lender-widget .lender-form label, .lender-widget .lender-form button {
+      cursor: pointer; }
+    .lender-widget .lender-form .column {
+      float: left; }
+    .lender-widget .lender-form .clear {
+      clear: both; }
+    .lender-widget .lender-form .percentage {
+      font-size: 95px;
+      line-height: 1;
+      letter-spacing: -7px;
+      margin-right: 18px; }
+    .lender-widget .lender-form .ann-return {
+      font-size: 38px; }
+    .lender-widget .lender-form .loan-length {
+      font-size: 23px; }
+    .lender-widget .lender-form .help-icon i {
+      font-size: 19px;
+      position: relative;
+      top: -5px; }
+    .lender-widget .lender-form .desc {
+      color: #87847a;
+      font-size: 14px;
+      width: 62%; }
+    .lender-widget .lender-form .submit {
+      width: 38%;
+      text-align: center; }
+    .lender-widget .lender-form button {
+      width: 162px;
+      height: 42px;
+      background-color: #2aa1df;
+      color: white;
+      font-size: 22px; }
+  .lender-widget footer {
+    margin-top: 14px;
+    font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
