@@ -74,8 +74,8 @@
       min-width: 162px;
       text-align: center; }
     .lender-widget .lender-form button {
-      width: 162px;
-      height: 43px;
+      width: 160px;
+      height: 41px;
       background-color: #2aa1df;
       color: white;
       font-size: 23px;
@@ -83,7 +83,18 @@
       -moz-border-radius: 7px;
       border-radius: 7px;
       margin-top: 1px;
-      letter-spacing: 0.3px; }
+      letter-spacing: 0.3px;
+      border: 1px solid #74c4ed;
+      background: #74c4ed;
+      /* Old browsers */
+      background: -moz-linear-gradient(top, #74c4ed 0%, #2ba1df 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, #74c4ed 0%, #2ba1df 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, #74c4ed 0%, #2ba1df 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74c4ed', endColorstr='#2ba1df',GradientType=0 );
+      /* IE6-9 */ }
   .lender-widget footer {
     margin-top: 9px;
     font-size: 20px;
