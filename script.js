@@ -8,7 +8,7 @@ $(document).ready(function(){
 	});
 
 	$( document ).tooltip({
-		position: { my: "right top", at: "right+10 bottom+10" }
+		position: { my: "right top", at: "right+7 bottom+10" }
 	});
 
 });
