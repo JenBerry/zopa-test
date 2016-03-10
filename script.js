@@ -7,7 +7,7 @@ $(document).ready(function(){
 		percentageElement.html(percentage);
 	});
 
-	$( document ).tooltip({
+	$( '.help-icon' ).tooltip({
 		position: { my: "right top", at: "right+7 bottom+10" }
 	});
 
